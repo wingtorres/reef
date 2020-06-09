@@ -1,2 +1,2 @@
-# reef_small
-test problem
+# reef_smol
+single channel test problem
