@@ -1,1 +1,2 @@
-# reef_smol
+# reef_small
+test problem
