@@ -109,7 +109,7 @@
 !  2D momentum open boundary conditions.
 !-----------------------------------------------------------------------
 !
-q = 0.16_r8
+q = 0.00_r8
 #if defined REEF
       IF (LBC(ieast,isUbar,ng)%acquire.and.                             &
      &    LBC(ieast,isVbar,ng)%acquire.and.                             &
@@ -119,7 +119,7 @@ q = 0.16_r8
           BOUNDARY(ng)%ubar_east(j)= 0.0_r8
         END DO
         DO j=JstrP,JendT
-          BOUNDARY(ng)%vbar_east(j)=0.0_r8
+          BOUNDARY(ng)%vbar_east(j)= 0.0_r8
         END DO
       END IF
 

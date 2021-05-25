@@ -9,8 +9,8 @@
 ** Options for Reef Toy Case, waves-ocean (SWAN/ROMS) two-way coupling.
 **
 ** Application flag:   REEF
-** Input script:       ocean_reef.in
-**                     coupling_reef.in
+** Input script:       ocean.in
+**                     coupling.in
 */
 
 #define ROMS_MODEL

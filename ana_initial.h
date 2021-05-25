@@ -139,7 +139,7 @@
 !  Initial conditions for 2D momentum (m/s) components.
 !-----------------------------------------------------------------------
 !
-q = 0.16_r8
+q = 0.00_r8
 #if defined REEF
 !      DO j=JstrT,JendT
       DO i=IstrP,IendT
